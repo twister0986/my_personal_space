@@ -203,6 +203,61 @@
                     </div>
                 </div>
             </section>
+
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">作品</h2>
+					
+					<h3 class="mb-0">大學畢業專題 : 台灣中部景點探索地圖</h3>
+                    <br>
+					
+						<p class="text_attribute">景點數以萬計，種類也相當的繁雜，大致可分為歷史古蹟、觀光工廠、自然風光、宗教場所等類型。對遊客來說，可能對某類型的景點特別有興趣，但不知道哪個地方可以較大程度達到要求，最後只怕會浪費了寶貴的時間卻換來不愉快的行程。</p>
+						<p class="text_attribute">本項目藉由程式顯示出景點的 Google 地圖星級評分、圖片、營業時間、所在地氣候，同時為了方便進行景點之間的比較，將每個分類中的所有景點評分以視覺柱狀圖的方式進行呈現，讓遊客在出門前能有充足易懂的資訊能進行參考，進而找到符合自己期待及現實條件允許的目的地。</p>
+						<p class="text_attribute"> 開發技術上，以 Python 為主，選擇 GUI 視窗程式進行結果呈現。景點基本資料及景點當地氣候先分別串接 Google Maps API、中央氣象局 API，再使用靜態網路爬蟲進行資料取得，最後成品如下圖 :</p>
+						
+						<br>
+						<div class="image-container-two">
+							<img src="assets/img/tk_1.jpg" alt="圖片1">
+						</div>
+						<br><br>
+						<div class="image-container-two">
+							<img src="assets/img/tk_2.jpg" alt="圖片2">
+						</div>
+						<br><br>
+						<div class="image-container-two">
+							<img src="assets/img/tk_3.jpg" alt="圖片3">
+						</div>
+						<br><br>
+						
+					<h3 class="mb-0">碩士畢業論文 : 使用文字探勘技術了解消費者對產品及服務態度之研究</h3>
+                    <br>
+						
+						<p class="text_attribute">現代消費者可以非常容易的在網路上各大評論平台、社群媒體分享自身對產品或服務的體驗，產品服務供應商也可利用評論發現消費者的意見。但是在經年累月之下，留下的資訊量往往非常巨大，若採用最原始的作法，逐一對每條評論進行評估，需要消耗大量的時間及精力，最後只會造成有心而無力的情形。</p>
+						<p class="text_attribute">為了讓品牌可從大量評論中發現消費者意見，並挖掘隱藏於其中的模式或規則，以便協助進行商業決策，使用文字探勘可以快速且有有效率的達到目的，因為此技術對處理文字數據具有一定的專門性和優勢，能夠運用特定的技術和方法，從非結構化的文本數據中提取有價值的資訊。</p>
+						<p class="text_attribute">使用 Python 開發的動態爬蟲程式完成評論收集，選擇從 Google 地圖收集某餐飲連鎖品牌在台灣全門市的評論，忽略只有評級沒有文字評論的回覆，少於四個字的評論因為能提供的資訊十分有限，也不在收集範圍內。最後總共收集到 114260 可用於分析的評論，接著進行資料前處理、情感分類、主題模型分析，再將結果以主題視覺化的形式進行呈現。</p>
+						<p class="text_attribute">以下視覺圖分為正面評論與負面評論，圖中左側的每一個圓圈都代表一個主題，大小是在整個評論資料及中的重要程度，紅色代表目前選擇的主題，右側是主題所屬關鍵字，藍色條狀代表此關鍵字在整個正面評論或負面評論中的出現頻率，紅色條狀則是代表在所選定主題的出現頻率。</p>
+
+						
+						<br>
+						<div class="image-container-two">
+							<nobr class="pic_title">正面評論</nobr>
+							<img src="assets/img/lda_pos.png" alt="圖片1">
+						</div>
+						<br><br>
+						
+						<div class="image-container-two">
+							<nobr class="pic_title">負面評論</nobr>
+							<img src="assets/img/lda_neg.png" alt="圖片2">
+						</div>
+						<br><br>
+						
+                </div>
+            </section>
+            
+
+
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
